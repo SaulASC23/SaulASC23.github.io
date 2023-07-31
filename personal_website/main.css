@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    height: 100%;
+}
+nav {
+    height: 40px;
+    background-color: #43A5F4;
+    font-family: 'Courier New';
+    display: flex;
+    padding-top: 12px;
+    justify-content: space-around;
+    font-size: x-large;
+}
+.item:hover {
+    opacity: .5;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#parent {
+    display: flex;
+    flex-direction: row;
+}
+#Vision {
+    padding-right: 100px;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    font-size: 23px;
+    text-align: left;
+}
+#vimg {
+    width: 900px;
+    padding: 25px;
+}
+#footer {
+    padding: 10px;
+    color: white;
+    font-size: large;
+    background-color: #43A5F4;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+}

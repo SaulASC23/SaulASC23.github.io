@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    height: 100%;
+}
+nav {
+    height: 40px;
+    background-color: #43A5F4;
+    font-family: 'Courier New';
+    display: flex;
+    padding-top: 12px;
+    justify-content: space-around;
+    font-size: x-large;
+}
+.item:hover {
+    opacity: .5;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.pgs {
+    padding: 25px;
+    font-family: 'Courier New';
+}
+#diff {
+    color: black;
+    text-decoration: underline;
+}
+.first {
+    display: flex;
+    flex-wrap: wrap;
+}
+#bcsc {
+    border-radius: 5%;
+    padding-left: 20px;
+    width: 35%;
+
+}
+#pg1 {
+    font-size: 25px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.second {
+    display: flex;
+    flex-wrap: wrap;
+}
+#MS343 {
+    width: 35%;
+    padding-right: 20px;
+    border-radius: 5%;
+}
+#pg2 {
+    font-size: 25px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.third {
+    display: flex;
+    flex-wrap: wrap;    
+}
+#HSMSE {
+    padding-left: 20px;
+    width: 35%;
+    border-radius: 5%;
+}
+#pg3 {
+    font-size: 25px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#footer {
+    padding: 10px;
+    color: white;
+    font-size: large;
+    background-color: #43A5F4;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+}
